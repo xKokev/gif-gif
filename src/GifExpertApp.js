@@ -4,7 +4,7 @@ import { GifGrid } from './components/GifGrid';
 
 // Functional Component
 
-export const GifExpertApp = ({ defaultCategories = [] }) => {
+export const GifExpertApp = ({ defaultCategories = ['Dog'] }) => {
   // const [categories, setCategories] = useState(['Dragon Ball']);
   const [categories, setCategories] = useState(defaultCategories);
 
