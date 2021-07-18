@@ -1,22 +1,15 @@
 
 * {
-  font-family: 'horse-font',  sans-serif, Arial;
+  font-family:   sans-serif, Arial;
 }
 
-@font-face {
-  font-family: 'horse-font';
-  src: url('./font/horse.ttf');
-}
-.horse-font{
-  font-family: 'horse-font'
-}
+
 body {
   padding: 5px;
   color: white;
   background: linear-gradient(-45deg, #ee7752, #8e11f3, #75d3ff, #23d5ab);
 	background-size: 500% 2000%;
 	animation: gradient 15s ease infinite;
-  font-family: horse-font;
 }
 input {
   color: #b30606;
